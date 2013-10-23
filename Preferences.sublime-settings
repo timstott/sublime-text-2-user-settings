@@ -1,31 +1,34 @@
 {
-	// Sets the colors used within the text area
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-
-	// Columns in which to display vertical rulers
-  "rulers": [80],
-
-  // If enabled, will highlight any line with a caret
-    "highlight_line": true,
-
-  // Makes tabs with modified files more visible
-  "highlight_modified_tabs": true,	
-
-	// The number of spaces a tab is considered equal to
-	"tab_size": 2,
-
-	// Set to true to insert spaces when tab is pressed
-  "translate_tabs_to_spaces": true,
-
-  // Set to true to removing trailing white space on save
-  "trim_trailing_white_space_on_save": true,
-
-  // Set to true to automatically save files when switching to a different file
-  // or application
-  "save_on_focus_lost": true,
-
+	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+	"file_exclude_patterns":
+	[
+		".tags"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".idea",
+		".bundle",
+		"tmp"
+	],
+	"font_face": "Droid Sans Mono",
+	"font_size": 12.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": false,
+	"show_full_path": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
