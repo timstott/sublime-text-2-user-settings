@@ -1,0 +1,25 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"BracketHighlighter",
+		"CoffeeScript",
+		"Cucumber",
+		"Cucumber Step Finder",
+		"GitHubinator",
+		"Package Control",
+		"RailsCasts Colour Scheme",
+		"RubyTest",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"Sublimerge Pro"
+	],
+	"repositories":
+	[
+		"https://github.com/enternships/RSpec"
+	],
+	"submit_usage": false
+}
