@@ -3,18 +3,21 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"ApplySyntax",
 		"BracketHighlighter",
 		"CoffeeScript",
 		"Cucumber",
 		"Cucumber Step Finder",
 		"GitHubinator",
 		"Package Control",
+		"Puppet",
 		"RailsCasts Colour Scheme",
 		"RubyTest",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeGit",
+		"SublimeLinter",
 		"Sublimerge Pro"
 	],
 	"repositories":
