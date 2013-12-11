@@ -6,7 +6,7 @@
   { "keys": ["super+alt+n"], "command": "new_file" },
   { "keys": ["super+n"], "command": "advanced_new_file"},
 
-  { "keys": ["j", "j"], "command": "exit_insert_mode",
+  { "keys": ["j", "k"], "command": "exit_insert_mode",
     "context":
     [
       { "key": "setting.command_mode", "operand": false },
@@ -20,6 +20,8 @@
       { "key": "num_selections", "operand": 1},
       { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
     ]
-  }
+  },
+  { "keys": ["super+shift+w"], "command": "close_all" },
+  { "keys": ["shift+space"], "command": "move", "args": {"by": "characters", "forward": true} }
 
 ]
