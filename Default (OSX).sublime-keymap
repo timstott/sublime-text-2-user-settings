@@ -21,7 +21,5 @@
       { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
     ]
   },
-  { "keys": ["super+shift+w"], "command": "close_all" },
-  { "keys": ["shift+space"], "command": "move", "args": {"by": "characters", "forward": true} }
-
+  { "keys": ["super+shift+w"], "command": "close_all" }
 ]
